@@ -1,4 +1,4 @@
 __pycache__/
 src/tests/
-/*.sh
+/test.sh
 public/
