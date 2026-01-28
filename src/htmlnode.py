@@ -15,7 +15,7 @@ class HTMLNode:
         if not self.props:
             return line
         for prop in self.props:
-            line += f" {prop}={self.props[prop]}"
+            line += f' {prop}="{self.props[prop]}"'
         return line
 
     def __repr__(self):
